@@ -1,43 +1,50 @@
-    Exercice 2 :
-        1)
-            Vous avez des documents qui peuvent être :
-                - des livres
-                - des dictionnaires
-                - etc (i.e. revue ou encore une bande dessinée)
+# Exercice 2
 
-            Ils ont en commun :
-                - un numéro
-                - un titre
-                - un auteur
-                - et un nombre de pages
+## 1)
 
-            Les dictionnaires ont la particularité d'avoir :
-                - une langue
-                - et un nombre de tomes
+Vous avez des documents qui peuvent être :
 
-            Écrivez les différentes classes qui vous semblent nécessaires afin de réaliser cette première étape.
+- des livres
+- des dictionnaires
+- etc. (i.e. revue ou encore une bande dessinée)
 
-         2)
-            Créer une classe "Bibliothèque" qui aura pour unique méthode "main".
-            Écrivez quelques lignes de code pour voir comment il se comporte jusque-là.
-            Par exemple :
-                - créer 2 auteurs
-                - les associer à 2 documents
-                - rédéfinisser les méthodes "toString()" (éventuellement à réadapter plus tard)
+Ils ont en commun :
 
-            Il faudra compléter cette classe au fur et à mesure.
+- un numéro
+- un titre
+- un auteur
+- et un nombre de pages
 
-        3)
-            Créer une classe "ListeDeDocuments" qui contiendra une liste de documents et deux méthodes qui
-            respectivement permettront d'ajouter ou de supprimer un document.
+Les dictionnaires ont la particularité d'avoir :
 
-            Remarques :
-                -un document est unique (cf. numéro) et cela aura au moins 2 conséquences ...
-                -on peut considérer ces méthodes comme généraliste
+- une langue
+- et un nombre de tomes
 
-            On aura besoin d'une autre méthode supplémentaire "tousLesAuteurs" qui nous donnera
-            pour chacun des documents dans la liste, son numéro et son auteur
+Écrivez les différentes classes qui vous semblent nécessaires afin de réaliser cette première étape.
 
-        4)
-            La dernière méthode "ListeDeDocuments" dans la classe "ListeDeDocuments"
-            permettra de mettre en pratique les rédéfinitions des méthodes toString()
+## 2)
+
+Créer une classe "Bibliothèque" qui aura pour unique méthode "main".
+Écrivez quelques lignes de code pour voir comment il se comporte jusque-là.
+Par exemple :
+
+- créer 2 auteurs
+- les associer à 2 documents
+- rédéfinisser les méthodes "toString()" (éventuellement à réadapter plus tard)
+
+Il faudra compléter cette classe au fur et à mesure.
+
+## 3)
+
+Créer une classe "ListeDeDocuments" qui contiendra une liste de documents et deux méthodes qui respectivement permettront d'ajouter ou de supprimer un document.
+
+Remarques :
+
+- un document est unique (cf. numéro) et cela aura au moins 2 conséquences...
+- on peut considérer ces méthodes comme généraliste
+
+On aura besoin d'une autre méthode supplémentaire "tousLesAuteurs" qui nous donnera pour chacun des documents dans la liste, son numéro et son auteur.
+
+## 4)
+
+La dernière méthode "ListeDeDocuments" dans la classe "ListeDeDocuments" permettra de mettre en pratique les rédéfinitions des méthodes `toString()`.
