@@ -1,3 +1,5 @@
+Cet exercice est plutôt simple et met en pratique : l'abstraction, composition et liste...
+
 # Exercice 2
 
 ## 1)
